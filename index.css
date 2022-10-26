@@ -1,0 +1,39 @@
+/* Write your code here. */
+.super-league-container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+*
+{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+.heading {
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #f8fafc;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+}
+Footer
+© 2022 GitHub, Inc.
